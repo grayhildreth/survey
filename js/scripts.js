@@ -6,6 +6,9 @@
      var InputMusic = $("input#InputMusic").val();
      var InputMovie = $("input#InputMovie").val();
      var color = $( "input:radio[name=color]:checked" ).val();
+     var dob = $("input#born").val();
+
+     alert('Good job, you finished the first part!');
 
 
      $(".InputName").text(InputName);
@@ -13,8 +16,11 @@
      $(".InputMusic").text(InputMusic);
      $(".InputMovie").text(InputMovie);
      $(".color").text(color);
+     $(".dob").text(dob);
 
      $("#answers").show();
-    event.preventDefault();
+     event.preventDefault();
+
+      alert('Nice! Look at all those answers!');
    });
  });
